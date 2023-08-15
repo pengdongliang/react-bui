@@ -1,4 +1,4 @@
-import { AdminEnv } from './admin-env.bit-env';
+import { AdminEnv } from './admin-env.bit-env'
 
-export { AdminEnv };
-export default AdminEnv;
+export { AdminEnv }
+export default AdminEnv
