@@ -21,6 +21,13 @@
             }
         }
     },
+    "configs/tsconfig": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.js",
+        "rootDir": "react-iui/configs/tsconfig",
+        "config": {}
+    },
     "envs/admin-env": {
         "scope": "",
         "version": "",
@@ -32,18 +39,10 @@
             },
             "teambit.dependencies/dependency-resolver": {
                 "policy": {
-                    "dependencies": {
-                        "@yooco/react-iui.envs.eslint-config-base": "0.0.0-e0004ae51c13ae17093413fb1aab6502ea7c7e0b"
-                    }
+                    "dependencies": {}
                 }
             }
         }
-    },
-    "envs/eslint-config-base": {
-        "scope": "yooco.react-iui",
-        "version": "e0004ae51c13ae17093413fb1aab6502ea7c7e0b",
-        "mainFile": "index.ts",
-        "rootDir": "react-iui/envs/eslint-config-base"
     },
     "$schema-version": "16.0.0"
 }

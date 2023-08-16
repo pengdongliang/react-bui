@@ -1,10 +1,29 @@
 // bit-generated-typescript-config
 {
-  "extends": "./node_modules/.cache/tsconfig.bit.f3b87b1c18fb9e87952d48c4888ed71964a4999d.json",
+  "extends": "@yooco/react-iui.configs.tsconfig",
   "compilerOptions": {
-    "typeRoots": [
-      "./node_modules/.cache/global-types",
-      "./node_modules/@types"
-    ]
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "jsx": "react-jsx",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "preserveSymlinks": true,
+    "declaration": false,
+    "declarationMap": false,
+    "noImplicitReturns": false,
+    "noUnusedParameters": false,
+    "composite": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true,
   }
 }
